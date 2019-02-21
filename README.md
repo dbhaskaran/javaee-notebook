@@ -17,6 +17,6 @@ $ mysql -uroot -p
 ### Project Index
 | Project        | Reference    |
 | ------------- |:-------------:|
-| [simple-todoapp](https://github.com/dbhaskaran/javaee-notebook/tree/master/simple-todoapp)| [](https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps) |
+| [simple-todoapp](https://github.com/dbhaskaran/javaee-notebook/tree/master/simple-todoapp)| [Java Servlets and JSP - Build Java EE(JEE) app in 25 Steps](https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps) |
 | x      | x     |
 | x | x      |
