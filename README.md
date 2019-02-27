@@ -18,6 +18,9 @@ $ mysql -uroot -p
 | Project        | Reference    |
 |:-------------:|:-------------:|
 | [simple-todoapp](https://github.com/dbhaskaran/javaee-notebook/tree/master/simple-todoapp)| [Java Servlets and JSP - Build Java EE(JEE) app in 25 Steps](https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps) |
+| x | [Java Web Database Application Development](https://www.amazon.com/Java-Web-Database-Application-Development-ebook/dp/B00736NGR8/)      |
+| x | [Build Web Applications with Java](https://www.amazon.in/Build-Web-Applications-Java-applications-ebook/dp/B00ZYC7HUA)      |
+| x | [Developing a Java Web Application in a Day](https://www.amazon.com/Developing-Java-Web-Application-Day/dp/1544274386/)      |
 | x      | [Java EE 7 Movieplex](http://htmlpreview.github.io/?https://github.com/javaee-samples/javaee7-hol/blob/master/docs/javaee7-hol.html)|
 | x | [javaee7-simple-sample](https://github.com/javaee-samples/javaee7-simple-sample)      |
 | x | [javaee7-eclipse](https://github.com/javaee-samples/javaee7-eclipse)      |
