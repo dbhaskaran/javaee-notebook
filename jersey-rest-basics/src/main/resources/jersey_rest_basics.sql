@@ -1,0 +1,114 @@
+DROP DATABASE IF EXISTS `jersey_rest`;
+CREATE DATABASE `jersey_rest`;
+
+USE `jersey_rest`;
+
+CREATE TABLE `contacts` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `person_id` mediumint,
+  `first_name` varchar(255) default NULL,
+  `last_name` varchar(255) default NULL,
+  `Country` varchar(100) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (1,"Kellie","Stevenson","Suriname");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (2,"Michael","Boyle","China");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (3,"Richard","Leon","Thailand");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (4,"Abdul","Emerson","Guadeloupe");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (5,"Octavia","Dale","Romania");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (6,"Kenyon","Powers","Brunei");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (7,"Emily","Farrell","Malaysia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (8,"Plato","Sloan","Ecuador");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (9,"Anika","Parks","Paraguay");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (10,"Marshall","Peterson","Saint Martin");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (11,"Griffin","Randall","India");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (12,"Lamar","Wolf","Cameroon");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (13,"Robin","Gilbert","Mauritania");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (14,"Marah","Parks","Bahrain");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (15,"Nora","Coleman","Equatorial Guinea");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (16,"Ivor","Wheeler","Gibraltar");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (17,"Octavia","Langley","Gabon");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (18,"Holly","Osborne","Rwanda");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (19,"Leroy","Wyatt","Western Sahara");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (20,"Daphne","Nieves","Puerto Rico");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (21,"Murphy","Hicks","Bahrain");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (22,"Vielka","Briggs","Norway");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (23,"Benjamin","Medina","Hungary");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (24,"Nina","Duran","Virgin Islands, British");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (25,"Hilary","Bradford","Honduras");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (26,"Abbot","Weber","Eritrea");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (27,"Rhoda","Garcia","Tokelau");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (28,"Cailin","Swanson","Antarctica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (29,"Silas","Kaufman","Latvia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (30,"Shaeleigh","Meyer","Croatia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (31,"Raphael","Kane","Maldives");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (32,"Shay","Barton","Venezuela");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (33,"Ignatius","Montgomery","Thailand");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (34,"Yael","Monroe","Western Sahara");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (35,"Colette","Rogers","Poland");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (36,"Tyrone","Mcmillan","Kyrgyzstan");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (37,"Lareina","Todd","Niger");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (38,"Sybill","Bonner","Jamaica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (39,"Brandon","Gallagher","Morocco");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (40,"Melyssa","Mitchell","Uganda");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (41,"Alisa","Cervantes","Uzbekistan");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (42,"Malcolm","Massey","Nigeria");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (43,"Arsenio","Wyatt","Bahrain");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (44,"Omar","Jacobs","Thailand");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (45,"Barbara","Horton","Dominica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (46,"Sylvia","Crane","Northern Mariana Islands");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (47,"Richard","Herring","Turkey");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (48,"Mariam","Cunningham","Wallis and Futuna");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (49,"Leah","Lang","Ethiopia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (50,"Michelle","Dalton","United Arab Emirates");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (51,"Alika","Ellison","Nepal");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (52,"Rowan","Mullen","Serbia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (53,"Octavius","Benson","Bonaire, Sint Eustatius and Saba");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (54,"Quinn","Reid","Bangladesh");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (55,"Nina","Dickson","American Samoa");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (56,"Bo","Warren","Somalia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (57,"Felicia","Ryan","Korea, South");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (58,"Oren","Fox","Malawi");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (59,"Russell","Montoya","Cameroon");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (60,"Ryan","Mcbride","Saint Vincent and The Grenadines");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (61,"Chadwick","Lambert","Russian Federation");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (62,"Veda","Puckett","Falkland Islands");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (63,"Isaac","Hardy","Angola");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (64,"Reece","Lowery","Turkey");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (65,"Britanney","Saunders","Fiji");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (66,"Yvonne","Dodson","Cyprus");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (67,"Teagan","Jacobson","Belgium");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (68,"Jermaine","Haley","Hong Kong");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (69,"Vaughan","Mack","Slovakia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (70,"Len","Blanchard","Guyana");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (71,"Brynne","Harvey","Slovakia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (72,"Melanie","Rutledge","Uruguay");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (73,"Chanda","Lowery","Iceland");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (74,"Mikayla","Roberson","Jamaica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (75,"Theodore","Gardner","Korea, North");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (76,"Callie","Morgan","Spain");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (77,"Zenaida","Jacobson","Mexico");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (78,"Kermit","Ewing","Botswana");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (79,"Drake","Kelly","Heard Island and Mcdonald Islands");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (80,"Regan","Colon","Saint Lucia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (81,"Burton","Barlow","Guyana");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (82,"Malik","Bell","Pitcairn Islands");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (83,"Nina","Tucker","Mauritania");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (84,"Barrett","Peters","Russian Federation");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (85,"Orli","Henderson","Barbados");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (86,"Quon","Waters","Australia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (87,"Alan","Williams","Wallis and Futuna");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (88,"Shoshana","Solis","Macao");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (89,"Brynn","Berger","Virgin Islands, United States");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (90,"Illana","Zimmerman","Dominica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (91,"John","Russell","Morocco");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (92,"Jakeem","Melendez","Dominica");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (93,"Addison","Gordon","Tunisia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (94,"Keefe","Barlow","Equatorial Guinea");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (95,"Evan","Avery","Cocos (Keeling) Islands");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (96,"Scott","Mccullough","Puerto Rico");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (97,"Nelle","Nash","Djibouti");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (98,"Blythe","Hull","French Polynesia");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (99,"Wendy","Richards","Sri Lanka");
+INSERT INTO `contacts` (`person_id`,`first_name`,`last_name`,`Country`) VALUES (100,"Wyatt","Quinn","British Indian Ocean Territory");
