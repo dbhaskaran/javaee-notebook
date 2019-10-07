@@ -46,6 +46,7 @@ $ mysql -uroot -p
 | x | [agoncal-book-javaee7](https://github.com/agoncal/agoncal-book-javaee7)      |
 | x | [agoncal-training-javaee7](https://github.com/agoncal/agoncal-training-javaee7)      |
 | x | [learn-microservices-w-spring-boot](https://github.com/Apress/learn-microservices-w-spring-boot)      |
+| x | [Hands On Full Stack-Development Spring React](https://www.amazon.com/Hands-Stack-Development-Spring-React-ebook/dp/B07S6F7YL3)      |
 | x | [TBD]()      |
 | x | [TBD]()      |
 | x | [TBD]()      |
