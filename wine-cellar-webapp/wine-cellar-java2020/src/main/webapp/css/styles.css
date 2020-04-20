@@ -1,19 +1,16 @@
-* {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-}
-
 .header {
 	padding-top: 5px;
 }
-
+.bg-navbar .navbar-brand {
+    color: #45062e;
+}
 .leftArea {
 	position: absolute;
 	left: 10px;
 	top: 70px;
 	bottom: 20px;
 	width: 260px;
-	border:solid 1px #CCCCCC;
+	border:solid 1px #e5a4cb;
 	overflow-y: scroll;
 }
 
@@ -45,13 +42,13 @@ li a {
 	text-decoration:none;
 	display: block;
 	color: #000000;
-	border-bottom:solid 1px #CCCCCC;
+	border-bottom:solid 1px #e5a4cb;
 	padding: 8px;
 }
 
 li a:hover {
-	background-color: #4B0A1E;
-	color: #BA8A92;
+	background-color: #45062E;
+	color: #E5A4CB;
 }
 
 input, textarea {

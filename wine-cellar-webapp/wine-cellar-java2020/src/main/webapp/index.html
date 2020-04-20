@@ -3,17 +3,30 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Cellar</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
 
-<div class="header">
-	<input type="text" id="searchKey"/>
-	<button id="btnSearch">Search</button>
-	<button id="btnAdd">New Wine</button>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Wine Cellar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <button class="btn btn-outline-primary my-2 my-sm-0" id="btnAdd">New Wine</button>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="searchKey">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnSearch">Search</button>
+    </form>
+  </div>
+</nav>
 
 <div class="leftArea">
 <ul id="wineList"></ul>
@@ -41,8 +54,8 @@
 <label>Year:</label>
 <input type="text" id="year" name="year"/>
 
-<button id="btnSave">Save</button>
-<button id="btnDelete">Delete</button>
+<button type="button" class="btn btn-outline-success" id="btnSave">Success</button>
+<button type="button" class="btn btn-outline-danger" id="btnDelete">Danger</button>
 
 </div>
 
@@ -55,8 +68,7 @@
 </div>
 
 </form>
-
-<script src="js/jquery-1.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
